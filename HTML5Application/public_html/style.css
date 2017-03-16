@@ -1,0 +1,168 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03 16, 17, 9:09:05 PM
+    Author     : John Paul
+*/
+
+*{
+    margin:0;
+    padding:0;
+}
+html, body{
+    height:100%;
+}
+
+body{
+    /*background-color:#000D18;*/
+    background-image:url(images/coding.png);
+    background-position:center;
+    background-size:cover;
+    background-blend-mode:soft-light;
+/*    border-bottom: 10px solid white;*/
+}
+
+.heading{
+    width:1080px;
+    height:350px;
+    margin:auto;
+    position:absolute;
+    top:0px; bottom:0px; right:0px; left:0px;
+}
+@font-face {
+    font-family: 'HelveticaNeue-Light';
+    src: url(fonts/HelveticaNeue-Light.otf); URL to font
+}
+
+.title1{
+    display: block;
+    text-align: center;
+    color:white;
+    font-size:60pt;
+    font-family:HelveticaNeue-Light;
+}
+.title2{
+    display:block;
+    margin-top:15px;
+    text-align: center;
+    color:white;
+    font-size:20pt;
+    font-family:HelveticaNeue-Light;
+}
+
+.register{
+    margin: 50px auto;
+    display:block;
+    width:180px;
+    height:50px;
+    border:3px solid white;
+    background-color:rgba(255,255,255,0);
+    color:white;
+    font-family:sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    
+    transition: background-color 1000ms, color 1000ms;
+}
+.register:hover{
+    background-color:rgba(255,255,255,1);
+    color:#222;
+    cursor:pointer;
+    
+    transition: background-color 1000ms, color 1000ms;
+}
+
+.content{
+   /*background-color: whitesmoke;*/
+    width:1050px;
+    height:3400px;
+    
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 160px;
+    
+    position: relative;
+    top:700px; bottom:0px; right:0px; left:0px;
+}
+
+.content1{
+    /*background-color: whitesmoke;*/
+    width:1200px;
+    height:500px;
+    margin:auto;
+    position:absolute;
+    top:200px;
+    font-family:HelveticaNeue-Light;
+}
+.content1sub1{
+    color:whitesmoke;
+    font-size:30pt;
+}
+.content1sub2{
+    text-indent: 100px;
+    color:whitesmoke;
+    font-size:50pt;
+}
+
+.content1sub3{
+    text-indent: 100px;
+    color:whitesmoke;
+    font-size:30pt;
+}
+
+
+.content2{
+    width:1200px;
+    height:300px;
+        /*background-color: whitesmoke;*/
+    margin:auto;
+    position:absolute;
+    top:1050px;
+    
+    color:whitesmoke;
+    font-size:40pt;
+    font-family:HelveticaNeue-Light;
+}
+
+.picture {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    
+}
+
+.content3{
+    width:1200px;
+    height:500px;
+        /*background-color: whitesmoke;*/
+    margin:auto;
+    position:absolute;
+    top:2000px;
+    
+    color:whitesmoke;
+    font-size:40pt;
+    font-family:HelveticaNeue-Light;
+}
+
+.content3sub1{
+    font-size:20pt;
+    text-indent: 240px;
+}
+
+.content4{
+    width:1200px;
+    height:500px;
+        /*background-color: whitesmoke;*/
+    margin:auto;
+    position:absolute;
+    top:2840px;
+    
+    color:whitesmoke;
+    font-size:40pt;
+    font-family:HelveticaNeue-Light;
+}
